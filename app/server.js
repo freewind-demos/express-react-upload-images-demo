@@ -30,7 +30,7 @@ app.post('/api/uploaded-images', function(req, res) {
   const imageFile = req.files.image;
   const targetName = generateTargetName(imageFile.name);
   imageFile.mv('./public/uploaded-images/' + targetName, function(err) {
-    if(err) return res.status(500).send('Error happens when uploading');
+    if (err) return res.status(500).send('Error happens when uploading');
     res.status(201).send('/uploaded-images/' + targetName);
   })
 });
