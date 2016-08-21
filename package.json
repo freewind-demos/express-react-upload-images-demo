@@ -1,5 +1,5 @@
 {
-  "name": "es6-project-demo",
+  "name": "express-react-upload-images-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,9 +26,11 @@
     "babel-preset-react": "^6.11.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "express-fileupload": "0.0.5",
     "jquery": "^3.1.0",
     "lodash": "^4.14.1",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "superagent": "^2.2.0"
   }
 }

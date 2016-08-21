@@ -1,10 +1,10 @@
-import Hello from './hello.jsx';
+import UploadForm from './upload-form.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 
 ReactDOM.render(
-  <Hello />,
+  <UploadForm />,
   document.getElementById("content")
 );
 
